@@ -8,8 +8,7 @@ end
 def parse
     s =  emails.split(/[\s|,]/)
     s -= ['']
-      
-
+      s.uniq
 end
 
 end      # Build a class EmailParser that accepts a string of unformatted
