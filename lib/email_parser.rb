@@ -1,3 +1,5 @@
+require 'pry'
+
 class EmailParser
   attr_accessor :emails
 
@@ -8,6 +10,7 @@ end
 def self.parse(emails)
   csv = emails.split(", ")
     csv
+    binding.pry
 end
 
 end      # Build a class EmailParser that accepts a string of unformatted
