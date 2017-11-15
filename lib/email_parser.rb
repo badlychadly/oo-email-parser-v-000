@@ -6,8 +6,9 @@ def initialize(emails)
 end
 
 def parse
-      emails.split(/[\s|,]/)
-      emails
+    s =  emails.split(/[\s|,]/)
+    s -= ['']
+      
 
 end
 
