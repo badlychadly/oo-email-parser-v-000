@@ -6,7 +6,7 @@ def initialize(emails)
 end
 
 def parse
-  csv = emails.split(", ")
+  csv = emails.split(", ") ||emails.split(" ")
     csv
 end
 
