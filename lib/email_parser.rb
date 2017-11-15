@@ -11,7 +11,7 @@ def self.parse(emails)
   csv = emails.split(", ")
     binding.pry
     csv
-  
+
 end
 
 end      # Build a class EmailParser that accepts a string of unformatted
