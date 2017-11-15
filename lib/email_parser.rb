@@ -7,11 +7,9 @@ def initialize(emails)
   @emails = emails
 end
 
-def self.parse(emails)
+def parse(emails)
   csv = emails.split(", ")
-    binding.pry
     csv
-
 end
 
 end      # Build a class EmailParser that accepts a string of unformatted
