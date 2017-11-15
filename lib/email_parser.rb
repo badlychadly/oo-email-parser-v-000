@@ -6,7 +6,7 @@ def initialize(emails)
 end
 
 def parse
-   emails.split(", ")
+   self.split(", ")
 end
 
 end      # Build a class EmailParser that accepts a string of unformatted
