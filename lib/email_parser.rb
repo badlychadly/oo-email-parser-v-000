@@ -7,8 +7,7 @@ end
 
 def parse
       emails.split(/\s|,/)
-  
-    
+
 end
 
 end      # Build a class EmailParser that accepts a string of unformatted
