@@ -6,8 +6,7 @@ def initialize(emails)
 end
 
 def parse
-  csv = emails.split(", ") ||emails.split(" ")
-    csv
+   emails.split(", ")
 end
 
 end      # Build a class EmailParser that accepts a string of unformatted
